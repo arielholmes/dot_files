@@ -149,3 +149,4 @@ zle -N down-line-or-beginning-search
 [[ -n "${key[Down]}"  ]] && bindkey -- "${key[Down]}" down-line-or-beginning-search
 autoload -Uz promptinit
 promptinit
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
